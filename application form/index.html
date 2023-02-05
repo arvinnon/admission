@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Registraion Form</title>
+  </head>
+  <body>
+    <form action="#" class="form">
+      <h1 class="text-center">Registration Form</h1>
+      
+      <!-- Progress bar -->
+      <div class="progressbar">
+        <div class="progress" id="progress"></div>
+        
+        <div class="progress-step progress-step-active" data-title="Application Information"></div>
+        <div class="progress-step" data-title="Personal Information"></div>
+        <div class="progress-step" data-title="Contact Information"></div>
+        <div class="progress-step" data-title="In Case of Emergency"></div>
+        <div class="progress-step" data-title="Documents"></div>
+        <div class="progress-step" data-title="Family Data"></div>
+        <div class="progress-step" data-title="Educational Background"></div>
+        <div class="progress-step" data-title="Survey Questyions"></div>
+      </div>
+
+      <!-- Steps -->
+      <div class="form-step form-step-active">
+        <h4>Application Information:</h4>
+        <div class="input-group">
+          <label for="username">Application Form</label>
+          <input type="text" name="username" id="username" />
+        </div>
+
+          <div class="input-group">
+             <label for="username">Application Form</label>
+            <select type="text" name="username" id="username" style="width:100%;height: 100%;">
+              <option value="GS1">SY 2022-2023 2ND TRIMESTER - GRADUATE SCHOOL</option>
+              <option value="GS2">SY 2022-2023 2ND TRIMESTER - PHD </option>
+              <option value="GS3">SY 2022-2023 3RD TRIMESTER - GRADUATE SCHOOL</option>
+              <option value="GS4">SY 2022-2023 3RD TRIMESTER - PHD </option>
+              <option value="CO1">SY 2023-2024 1ST SEMESTER - COLLEGE </option>
+              <option value="BED1">SY 2023-2024 1ST SEMESTER - SENIOR HIGH SCHOOL</option>
+              <option value="BED2">SY 2023-2024 1ST SEMESTER - JUNIOR HIGH SCHOOL</option>
+            </select> 
+              
+          </div>
+        <div class="input-group">
+          <label for="position">Position</label>
+          <input type="text" name="position" id="position" />
+        </div>
+        <div class="">
+          <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+        </div>
+      </div>
+
+
+      <div class="form-step">
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+
+      <div class="form-step">
+        <div class="input-group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" name="dob" id="dob" />
+        </div>
+        <div class="input-group">
+          <label for="ID">National ID</label>
+          <input type="number" name="ID" id="ID" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+
+       <div class="form-step">
+        <div class="input-group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" name="dob" id="dob" />
+        </div>
+        <div class="input-group">
+          <label for="ID">National ID</label>
+          <input type="number" name="ID" id="ID" />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+
+      <div class="form-step">
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+          />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <input type="submit" value="Submit" class="btn" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
